@@ -1,4 +1,7 @@
+### Конфигурация MBUS-serve
+**Конфигурация программы осуществляется редактированием файла config.yaml**
 
+```
 sources_data:
   metric_socket: 0.0.0.0:53214
   event_socket: 0.0.0.0:53212
@@ -12,5 +15,5 @@ modbus_tcp:
 modbus_rtu:
   running: true
   device: /dev/ttyUSB0
-  #in device device: /dev/ttyS0
   unit_id: 1
+```
